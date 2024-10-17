@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node src/tale.js",
     "lint": "eslint",
     "lint:fix": "eslint . --fix",
     "codestyle:ci": "run-p lint:ci format:ci",
