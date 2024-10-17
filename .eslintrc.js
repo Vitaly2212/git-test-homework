@@ -18,6 +18,7 @@ export default {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
+    parser: 'babel-eslint',
   },
   rules: {},
 }
