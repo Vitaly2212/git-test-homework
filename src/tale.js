@@ -2,13 +2,16 @@ export function kolobok(x) {
 
 switch(x) {
   case 'дедушка':
-    console.log('Я от дедушки ушел');
+    return 'Я от дедушки ушел';
     break;
   case 'заяц':
-    console.log('Я от зайца укатился')
+    return 'Я от зайца укатился';
     break;
   case 'лиса':
-    console.log('Меня съели')
+    return'Меня съели';
+    break;
+  default:
+    return 'Никого не встретил'
     break;
 }
 
