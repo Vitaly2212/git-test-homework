@@ -3,12 +3,7 @@ export default {
     es2021: true,
     node: true,
   },
-  extends: [
-    "eslint:recommended",
-     "plugin:import/recommended",
-     "standard",
-     "prettier"
-    ],
+  extends: ["standard", "prettier"],
   overrides: [
     {
       env: {
