@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node logical.js",
+    "start": "node ./src/logical.js",
     "test": "node ./src/asserts.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
