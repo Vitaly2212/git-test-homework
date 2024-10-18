@@ -1,4 +1,4 @@
-function kolobok(x) {
+export function kolobok(x) {
 
 switch(x) {
   case 'дедушка':
